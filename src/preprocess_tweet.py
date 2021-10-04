@@ -41,6 +41,14 @@ def preprocess_tweet(tweet):
     """
     1. removes emojis, mentions, punctuations, URLs
     2. returns clean text and hashtags
+    
+    Example Usage - 
+
+    > tweet = "@RT @Twitter raw text data usually has lots of #residue. http://t.co/g00gl"
+    > cleantext, hastags = preprocess_tweet(tweet)
+    > cleantext, hashtags
+    ('raw text data usually has lots of', ['residue'])
+
     """
 
 
